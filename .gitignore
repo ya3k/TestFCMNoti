@@ -1,0 +1,114 @@
+# Ignore user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build output and cache files
+bin/
+obj/
+out/
+artifacts/
+Logs/
+[Ll]og/
+[Ll]ogs/
+
+# Ignore IDE-specific files
+.vs/
+.idea/
+*.pidb
+*.svclog
+*.tss
+*.ntvs_analysis.dat
+
+# Ignore compiled binaries and debugging files
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.ipdb
+*.iobj
+*.tlb
+*.tli
+*.tlh
+*.pch
+*.obj
+*.sbr
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+nunit-*.xml
+TestResult.xml
+
+# Ignore dependency manager folders
+node_modules/
+packages/
+paket-files/
+
+# Ignore NuGet files
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore .NET Core build files
+project.lock.json
+project.fragment.lock.json
+
+# Ignore ASP.NET & Blazor-specific files
+ScaffoldingReadMe.txt
+Generated\ Files/
+wwwroot/
+
+# Ignore Azure-related files
+PublishScripts/
+publish/
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Ignore SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore config and environment files
+.env
+secrets.json
+appsettings.json
+appsettings.*.json
+!Api/appsettings.json # Keep this one tracked
+
+# Ignore Docker & Kubernetes files (if applicable)
+.kube/
+
+# Ignore local history & backup files
+.localhistory/
+Backup*/
+MigrationBackup/
+
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# Idea file
+.idea
+
+# Ignore environment variables
+.env
+
+# Ignore migration folder
+# Migrations/
+/Api/firebase-adminsdk.json
